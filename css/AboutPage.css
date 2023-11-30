@@ -1,0 +1,368 @@
+#background_img{
+   background-image: url(../img/Aboutpage\ background\ image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65em;
+}
+
+header{
+    text-align: center;
+    font-size: 72px;
+    margin-top: 2.5em;
+}
+
+#Greatness-tag{
+    color:#01b673 ;
+}
+
+#Learn_more{
+    text-decoration: none;
+    color: black;
+    font-size:28px;
+    font-weight: 300;
+    background-color: #01b673;
+    border-radius: 0.8em;
+    padding: 0.8em 0.8em;
+    transition: 0.3s ease-in-out;
+}
+
+#Learn_more:hover{
+    background-color: #0bd48a;
+}
+
+#arrow{
+    font-size: 24px;
+}
+
+
+#about_me_section{
+    margin-top: 7em;
+}
+
+.side_desc{
+    margin-left: 4.5em;
+    font-size: 21px;
+    font-weight: 300;
+    color: #666666;
+}
+
+.side_desc2{
+    margin-left: 0.4em;
+    font-size: 21px;
+    font-weight: 300;
+    color: #666666;
+}
+
+.line{
+    height: 5em;
+    width: 5px;
+    background-color: black;
+    border-radius: 2em;
+    margin-left: 4em;
+    margin-right: 1em;
+}
+
+.who_am_i{
+    display: flex;
+    align-items: center;
+}
+
+.who_am_i p{
+    font-size:4em;
+}
+
+.circle_rectangle_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle_rectangle_section.sec1{
+    margin-top: 5em;
+}
+
+.circle_rectangle_section.sec2{
+    margin-top: 12em;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.circle.pic1{
+    background-image: url(../img/myFace.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.circle.pic2{
+    background-image: url(../img/myPhysique.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.who_am_i_rect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3em;
+    width: 65%;
+    height: 18em;
+    border-radius: 3em; 
+}
+
+.who_am_i_rect p{
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+.benefits_sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+    gap: 10em;
+}
+
+.benefits_rect{
+    padding: 3em;
+    width: 32em;
+    height: 32em;
+    border-radius: 18%; 
+}
+.benefits_rect img{
+    float: left;
+    width: 6rem;
+    height: 6rem;
+} 
+
+.title_benefits{
+    margin-left: 3.2em;
+    font-size: 2.2em; 
+    font-weight: 900; 
+}
+
+.text_benefits{
+    font-size: 1.5em;
+    text-align: justify;
+    clear: both; 
+    margin: 2em 0 0 0.6em;
+}
+
+#SignUp_bar{
+    margin-top: 10em;
+    background-image: url(../img/sign_up_bar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#SignUp_text{
+    margin-left: 3em;
+    margin-bottom:0.5em;
+    width: 30rem;
+    margin-top: 0.8em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+#SignUp_btn{
+    cursor: pointer;
+    margin-top: 1.5em;
+    background-color: #71d2ab;
+    border: 1px solid #71d2ab;
+    border-radius: 3em;
+    padding: 1em 2em;
+    transition: 0.5s ease-in-out;
+}
+
+#SignUp_btn:hover{
+    
+    transform: scale(1.1);
+}
+
+#SignUp_btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+  
+#Why_trust{
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+#Why_trust_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    margin-top: 5em;
+}
+
+#Why_trust_icons .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Why_trust_title{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+.Why_trust_text{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 2em 0;
+}
+
+#MyWorks_title{
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+}
+
+#MyWorks_title p{
+    font-size: 4em;
+    font-weight: 500;
+}
+
+#MyWorks_title p::after{
+    content: "";
+    display: block;
+    background-color: black;
+    margin: auto;
+    border-radius: 5em;
+    width: 25%;
+    height: 0.18em;   
+    margin-top: 0.4em; 
+}
+
+#MyWorks_grid{
+    margin-top: 5em;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 8em;
+    row-gap: 3em;
+}
+
+#MyWorks_grid img{
+    width: 100%;
+}
+
+.grid-item{
+    text-align: center;
+}
+
+.item1{
+    grid-column: 1/span 1;
+    grid-row: 1/span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item2{
+    grid-column: 2/span 1;
+    grid-row: 1/span 1;
+}
+
+.item3{
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+}
+
+.item4{
+    grid-column: 3/span 1;
+    grid-row: 1/span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------------------ */
+
+.line2{
+    height: 8em;
+    width: 5px;
+    margin: 0 8em 0 5em ;
+    background-color: black;
+    border-radius: 5em;
+}
+
+.btn {
+    background-color: #f6f3e8;
+    cursor: pointer;
+    padding: 0px;
+    border: none;
+    outline: none;
+  }
+  
+  .plusminus {
+    font-size: 36px;
+  }
+
+  .panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+  }
+
+
+  .p1{
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 1em;
+  }
+
+  .title_specialise{
+    font-size: 43px;
+  }
+
+  .header_specialise{
+    padding-top: 10em;
+  }
+
+  .hori_line{
+    margin: 1.5em 0;
+    width: 38em;
+    height: 5px;
+    background-color: black;
+    border-radius: 1em;
+  }
+
+  article{
+    margin-top: 12em;
+  }
+
+  .part1:nth-child(2){
+        transition-delay: 500ms;
+  }
+
+  .part1:nth-child(3){
+    transition-delay: 500ms;
+  }
+
+  .part1:nth-child(4){
+    transition-delay: 500ms;
+  }

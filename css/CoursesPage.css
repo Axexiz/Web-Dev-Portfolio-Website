@@ -1,0 +1,133 @@
+footer{
+    margin-top: 12em;
+}
+
+header{
+    background-image: url(../img/Courses_header_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 32em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header p{
+    font-size: 9em;
+    font-weight: 300;
+    position: relative;
+    top: 0.4em;
+}
+
+#Circle_container{
+    position: relative;
+    top: 3em;
+}
+
+#Circle_logo{
+    background-color: #fbf8f1;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Circle_logo img{
+    width: 4em;
+    height: 4em;
+}
+
+#select_course{
+    text-align: center;
+    margin-top: 4.5em;
+}
+
+#select_course_rect{
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 7em;
+}
+
+.Select_courseBox{
+    width: 25em;
+    height: 29em;
+    border-radius: 2.4em;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Join_now_btn{
+    color: black; 
+    font-size: 1.4em; 
+    background-color: #a0e1c7;
+    padding: 0.6em 2.6em; 
+    border-radius: 0.5em;
+}
+
+.Join_now_btn a{
+    text-decoration: none; 
+    color: black;
+}
+
+.Select_courseBox:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+#Learning_sect{
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+#Learning_sect a{
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+}
+
+#Learning_sect a::after{
+    content: "";
+    display: block;
+    background-color: black;
+    margin: auto;
+    border-radius: 2em;
+    height: 0.15em;
+    width: 0%;
+    transition: 0.5s ease;
+}
+
+#Learning_sect a:hover::after{
+    width: 45%;
+}
+
+#line{
+    display: block;
+    width: 0.5em;
+    height: 5em;
+    background-color: black;
+    border-radius: 3em;
+}
+
+article{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5em;
+    margin-left: 4em;
+}
+
+article p{
+    font-size: 3em;
+}

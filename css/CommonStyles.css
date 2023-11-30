@@ -1,0 +1,283 @@
+
+@font-face {
+    font-family:'cascidia code regular';
+    src: url(../Font/CascadiaCode-Regular-VTT.ttf);
+
+    font-family: 'source-code-pro';
+    src: url(../Font/SourceCodePro-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cascidia code regular,monospace;
+    font-weight:500;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f3e8;
+}
+
+
+main,#footer_content,#copy,#header_courses,.main_attri{
+    max-width: 90em;
+    margin: auto;
+}
+
+nav{
+    padding-top: 0.5em;
+    display: flex;
+    justify-content:space-between;
+}
+
+#second-sec{
+    padding-left: 3em;
+}
+
+#logo{
+    font-size: 4em;
+    font-family: source-code-pro,monospace;
+    font-weight: 500;
+}
+
+.nav-bar{
+    padding: 1em 0 1em 3em;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+
+.nav-bar li a{
+    display: block;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar li{
+    padding: 0 1em ;
+    list-style-type: none;
+}
+
+.active::after{
+    content: "";
+    display: block;
+    background-color: black;
+    border-radius: 1.5em;
+    width: 60%;
+    height: 8px;
+    margin: auto;
+}
+
+#first-sec{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#first-sec ul{
+    list-style-type: none;
+}
+
+footer{
+    background-color: #e6ddd0;
+    width: 100%;
+    padding-bottom:2em ;
+}
+
+#Discount_text{
+    font-weight: 500;
+    font-size: 23px;
+    padding-bottom: 0.5em;
+}
+
+#footer_content{
+    padding: 3em 1em;    
+}
+
+#enter{
+    background-color: #f6b154;
+    height: 1.8em;
+    width: 3em;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#enter a{
+    text-decoration: none;
+    color: white;
+}
+
+#Discount_bar{
+    display: flex;
+    align-items: center;
+}
+
+#message_box{
+    display: none;
+    position: fixed;
+    top: 1.5%;
+    right: 0.5%;
+    padding: 1em 2em;
+    background-color: #f6b054d4;
+    border-radius: 1em;
+}
+
+#message_box p{
+    color: white;
+    font-size: 1.5em;
+}
+
+#discount_code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Dcode_submit{
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background-color: #f6b154;
+    height: 1.91em;
+    width: 3em;
+    font-size: 30px;
+    color: white;
+    border: none;
+}
+
+.socials{
+    display: flex;
+    gap: 1em;
+}
+
+.black img{
+    height:2em;
+    margin-top: 1.5em;
+}
+
+#footer_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#group2{
+    display: flex;
+    gap: 5em;
+}
+
+.footer_title{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.footer_nav{
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+#copy p{
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+.rectangle{
+    background-color:#fcfaf2 ;
+    box-shadow: -12px 0px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.scrollup{
+    position: fixed;
+    bottom: -20%;
+    right: 1.5rem;
+    background-color: #f2b96e;
+    z-index: 1;
+    padding: 0.3rem;
+    border-radius: 4rem;
+    transition: 0.4s;
+}
+
+.show-scroll{
+    bottom: 5rem;
+}
+
+.scrollup:hover{
+    background-color: #eaa852;
+}
+
+.scrollup_logo{
+    font-size: 1.5rem;
+    color: snow;
+}
+
+.hiddenLeft{
+    opacity: 0;
+    filter: blur(12px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.showLeft{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hiddenRight{
+    opacity: 0;
+    filter: blur(12px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.showRight{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hiddenMid{
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+
+.showMid{
+    opacity: 1;
+}
+
+.hiddenUp{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100%);
+    transition: all 1s ease;
+}
+
+.showUp{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.hiddenDown{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-100%);
+    transition: all 1s ease;
+}
+
+.showDown{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
