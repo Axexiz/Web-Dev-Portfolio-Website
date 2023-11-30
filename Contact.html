@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.typekit.net/sbb8nhz.css">
+    <link rel="stylesheet" href="css/CommonStyles.css">
+    <link rel="stylesheet" href="css/ContactPage.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+    
+    <main class="hiddenMid">
+        
+        <nav>
+
+            <div id="first-sec">                                  
+                <ul>
+                    <li>
+                        <a id="logo" href="Index.html"> KENJI</a>
+                    </li>
+                </ul>                   
+            </div>
+
+            <div id="second-sec">
+                <ul class="nav-bar">
+                    <li><a class="navlink" href="Index.html">Home</a></li>
+                    <li><a class="navlink" href="About.html">About</a></li> 
+                    <li><a class="navlink" href="Courses.html">Courses</a></li>
+                    <li><a class="navlink" href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+
+        <Header><div class="line"></div><p>Keep in contact</p></Header>
+        <form method="get" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+        <section style="display: flex; justify-content: space-between;">
+            <fieldset style="border: none;">
+                <div>
+                <label>Name:</label> <br>
+                <input class="input_boxes" name="Name: " type="text" placeholder="enter your name" required>
+                </div>
+
+                <div>
+                <label>Email:</label> <br>
+                <input class="input_boxes" name="Email: " type="email" placeholder="enter your email">
+                </div>
+
+                <div>
+                    <label>Gender:</label>
+                    <div class="radio_select">
+                        <input name="Gender" class="input_radio" type="radio" value="Male" required> <p>Male</p>  &nbsp;
+                        <input name="Gender" class="input_radio" type="radio" value="Female" required> <p>Female</p>  &nbsp;                        
+                    </div>
+                </div>
+
+                <div>
+                    <label>TelNo:</label> <br>
+                    <input class="input_boxes" name="TelNo: " type="tel" placeholder="enter your number" required>
+                </div>
+
+                <div>
+                    <label>which module are you attending?</label>
+                    <div class="Mod_select"><input class="Mod_attend" name="module" type="checkbox" value="UIUX"><p> UIUX</p>&nbsp;</div>
+                    <div class="Mod_select"><input class="Mod_attend" name="module" type="checkbox" value="Web_Dev"><p>Web Dev</p> &nbsp;</div>
+                    <div class="Mod_select"><input class="Mod_attend" name="module" type="checkbox" value="Game_Dev"><p>Game Dev</p> &nbsp;</div>
+                </div>
+            </fieldset>
+            
+            <fieldset style="border: none; ">
+                <div>
+                    <label>Age Group:</label>
+                    <select name="Age_group" class="input_boxes2">
+                        <option value="16-20">Min Age: 16-20</option>
+                        <option value="20-35">20-35</option>
+                        <option value="35-55">35-55</option>
+                        <option value="55_Above">55 & above</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Which course are you attending?</label>
+                    <div class="radio_select2"><input name="Course" class="input_radio" type="radio" value="Starter_course" required> <p>Starter course</p>  &nbsp;</div>
+                    <div class="radio_select2"><input name="Course" class="input_radio" type="radio" value="Intermediate_course" required> <p>Intermediate course</p>  &nbsp;</div>    
+                    <div class="radio_select2"><input name="Course" class="input_radio" type="radio" value="Advanced_course" required> <p>Advanced course</p>  &nbsp;</div>                    
+                </div>
+                
+                <div>
+                    <label>Message/Feedback:</label> <br>
+                    <textarea name="Feedback" rows="8" placeholder="Enter..." ></textarea>
+                </div>
+
+            </fieldset>
+
+        </section>
+        <article>
+                <input id="send_form" type="submit" value="send">
+                <input type="reset" value="undo">
+        </article>
+        </form>    
+        
+        <div style="display: flex; flex-direction: column; align-items: center; margin-top: 3em;">
+            <p style="font-size: 2.3em; margin: 1em 0;"> My Socials</p>
+            
+            <div id="socials_coloured">
+             <div class="img_item1 img_socials"><a href="https://www.facebook.com/"><img src="img/FB_green.png" alt="fb"></a></div>
+             <div class="img_item2 img_socials"  style="margin-right: 1.8em; margin-left: 2.2em;"><a href="https://twitter.com/"><img src="img/Twitter_blue.png" alt="twitter"></a></div>
+             <div class="img_item3 img_socials"><a href="https://www.instagram.com/"><img src="img/Insta_orange.png" alt="insta"></a></div>
+            </div>
+            
+            <div id="share_btn">
+                <a href="#">Share</a> 
+            </div>
+     </div>
+        
+    </main>
+
+
+
+    <footer>
+
+        <section id="footer_content">
+
+            <div id="group1">
+                <p id="Discount_text"> Redeem code to enjoy 30% off</p>
+                
+                
+                    <form id="discount_code">
+                        <input type="text" name="discount_text" id="discount_text" style="outline: none; width: 9em; font-size: 2em; height: 1.8em; border: none; padding: 0 0.5em;" required>
+                        <input id="Dcode_submit" type="submit" value="Enter">
+                    </form>       
+                
+
+                <div class="socials black">
+                    <div>
+                        <a href="https://www.facebook.com/"><img src="img/Facebook_black.png" alt="Facebook_black" ></a>
+                    </div>
+                    <div>
+                        <a href="https://twitter.com/"><img src="img/Twitter_black.png" alt="Twitter_black" ></a> 
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/"><img src="img/Insta_black.png" alt="Insta_black" ></a> 
+                    </div>
+                </div> 
+            </div>
+                                                                   
+
+
+            <div id="group2">
+                <div>
+                    <p class="footer_title">My Account</p>
+                    <p class="footer_nav"><br> Profile <br><br> Account <br><br> Preferences <br><br> Credits</p> 
+                </div>
+                
+                <div>
+                    <p class="footer_title">Shop</p>
+                    <p class="footer_nav"><br> Hire me <br><br> My courses</p> 
+                </div>
+
+                <div>
+                    <p class="footer_title">Support</p>
+                    <p class="footer_nav"><br> Accessability <br><br> Contact <br><br> FAQs <br><br> Privacy policy <br><br> Cookie policy</p> 
+                </div>
+            </div>
+        
+        </section>
+
+        <div id="message_box">
+            <p>Your discount code has <br> been sent successfully!</p>
+        </div>
+
+        <div id="copy">
+            <p>© 2021 UIUX designer. All rights reserved.</p>
+        </div>
+         
+
+</footer>
+
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup_logo"></i>
+</a>
+
+<script src="js/JScript.js"></script>
+</body>
+</html>
